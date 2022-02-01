@@ -1,5 +1,5 @@
 ## README ##
-This is a simple web page that displs a list of The Holy Quran Reciters
+This is a simple web page that displays a list of my favorite Quran Reciters
 
 ------------------------------------
 

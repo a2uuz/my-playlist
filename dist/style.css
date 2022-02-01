@@ -3,12 +3,29 @@
           box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #fff;
   font-size: 1em;
   font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 1em;
-  background: #20d3c4 url(/mandala.svg) no-repeat center 45%;
+  background-color: rgba(0, 64, 88, 0.849);
 }
 
 main {
@@ -16,6 +33,9 @@ main {
   max-width: 1080px;
   padding: 40px 0 0;
   margin: 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
 h1 {
@@ -34,15 +54,33 @@ ol {
   padding: 0;
 }
 
-ul li,
-ol li {
+li {
   line-height: 1.25;
   margin: 0 0 1.1em;
-  color: #42b8d6;
+  color: rgba(0, 41, 129, 0.774);
   padding: 0.8em;
   background-color: white;
   border-radius: 3px;
   -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  font-weight: 600;
+  color: black;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 800;
+  text-shadow: 1px 1px 3px black;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding-bottom: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
