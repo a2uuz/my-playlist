@@ -8,7 +8,7 @@ body {
   font-size: 1em;
   font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 1em;
-  background: #20d3c4 url(/img/mandala.svg) no-repeat center 45%;
+  background: #20d3c4 url(/mandala.svg) no-repeat center 45%;
 }
 
 main {
