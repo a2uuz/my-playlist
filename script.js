@@ -1,9 +1,8 @@
 const playlist = [
-"U can do it",
-"We Are",
-"Give it Up",
-"Lost in Paradise",
-"Black Catcher"
+"ناصر القطامي",
+"علي عبدالله جابر",
+"ياسر الدوسري",
+"سعود الشريم",
 ];
 
 function music(array){
