@@ -1,9 +1,9 @@
 ## README ##
-This is a simple webpage that is displaying a list of The Holy Quran's Reciters
+This is a simple web page that displs a list of The Holy Quran Reciters
 
 ------------------------------------
 
-### Here's some short video of them reciting The Quran ###
+### here's some short videos of them reciting The Quran ###
 
 * [ناصر القطامي](https://www.youtube.com/watch?v=cn1WcpAyMbw) 
 * [علي عبدالله جابر](https://www.youtube.com/watch?v=qunk2gIJ61M) 
